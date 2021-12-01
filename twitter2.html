@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS</title>
+    <link rel="stylesheet" href="./default.css">
+</head>
+
+<body>
+    <h1>SNS</h1>
+    <button onclick="
+        // let btnMod = document.querySelector('button');
+        if(this.innerText=='DARK MODE'){
+             darkMode();this.innerText = 'LIGHT MODE';
+             }else{
+            lightMode();this.innerText='DARK MODE'
+             }
+        ">DARK MODE</button>
+    <!-- <button onclick="lightMode();">LIGHT MODE</button> -->
+    <ol>
+        <li><a href="instargram2.html">Instargram</a></li>
+        <li><a href="facebook2.html">face</a></li>
+        <li><a href="twitter2.html">Twitter</a></li>
+    </ol>
+    <div>
+        <h2>Twitter</h2>
+        <img src="./twi.png" alt="트위터">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem autem ab dignissimos. Illo adipisci alias quo iste voluptate dolores.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse laboriosam molestias fugiat illum ipsa nesciunt sapiente amet ratione!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, alias ipsa. Ratione aliquam excepturi corrupti veniam natus impedit unde voluptatum sunt.
+        </p>
+    </div>
+
+    <script src="./dark-light.js"></script>
+
+</body>
+</html>

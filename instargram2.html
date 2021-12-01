@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS</title>
+    <link rel="stylesheet" href="./default.css">
+</head>
+
+<body>
+    <h1>SNS</h1>
+    <button onclick="">DARK MODE</button>
+
+    <ol>
+        <li><a href="instargram2.html">Instargram</a></li>
+        <li><a href="facebook2.html">face</a></li>
+        <li><a href="twitter2.html">Twitter</a></li>
+    </ol>
+    <div>
+        <h2>Instargram</h2>
+        <img src="./instar.png" alt="잉스타">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem autem ab dignissimos. Illo adipisci alias quo iste voluptate dolores.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse laboriosam molestias fugiat illum ipsa nesciunt sapiente amet ratione!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, alias ipsa. Ratione aliquam excepturi corrupti veniam natus impedit unde voluptatum sunt.
+        </p>
+    </div>
+    <script  src="./jquery-3.6.0.js"></script>
+    <script>
+        $('button').click(function(){
+            $('body').css({'background-color':'black'})
+            $('h1').css({'border-bottom':'5px soild white'})
+            $('h1,ol,h2,p').css({'color':'white'})
+            $('a').css({'color':'lightblue'})
+        });
+        // $('button').css({
+        //     'color':'gray',
+        //     'font-size':'16px'
+        // });
+
+        // let tit = document.querySelector('h1');
+        // tit.style.backgroundColor = 'black'
+        // tit.style.color = 'white'
+
+        // $('h1').css({
+        //     'background-color':'black',
+        //     'color':'white',
+        //     'font-size':'70px'
+        // })
+        // $('img').css({
+        //     'width':'50%',
+        //     'opacity':'0.8'
+        // })
+    </script>
+</body>
+</html>
