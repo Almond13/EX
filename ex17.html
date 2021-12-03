@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 이미지(Responsive Image)</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        figure{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>반응형 이미지(Responsive Image)</h1>
+    <figure>
+        <figcaption>고양이</figcaption>
+        <picture>
+            <source media="(min-width:1000px)" srcset="./imges\cat4.jpg">
+            <source media="(min-width:800px)" srcset="./imges\cat3.png">
+            <source media="(min-width:600px)" srcset="./imges\cat2.svg">
+            <img src="./imges/cat.gif" alt="귀여운 고양이 이미지">
+        </picture>
+    </figure>
+    
+</body>
+</html>

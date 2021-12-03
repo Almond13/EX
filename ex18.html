@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비디오를 움직여보자</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>비디오(Video)</h1>
+    <!-- autoplay muted loop -->
+    <video src="./media/cat01.mp4" controls></video>
+    <video controls>
+        <source src="./media/cat01.ogv">
+        <source src="media/cat02.webm">
+        <source src="media/cat03.mp4">
+    </video>
+    <audio src="./media/cat01.mp3" autoplay muted controls></audio>
+    <audio controls>
+        <source src="./media/cat01.mp3">
+        <source src="./media/cat02.mp3">
+        <source src="./media/cat03.mp3">
+    </audio>
+</body>
+</html>
