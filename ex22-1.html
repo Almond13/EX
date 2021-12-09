@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+
+    <style>
+
+        h1{
+            margin-left: 100px;
+            margin-top: 50px;
+            font-size: 40px;
+        }
+        form{
+            margin-left: 100px;
+            max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <h1>회원가입을 환영합니다</h1>
+    <br>
+    <form>
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <label>
+                    <li>아이디
+                        <input type="text">
+                    </li>
+                 </label>
+                <br>
+                <label>
+                    <li>이메일
+                        <input type="email">
+                    </li>
+                </label>
+                <br>
+                <label>
+                    <li>비밀번호
+                        <input type="password">
+                    </li>
+                </label>
+                <br>
+                <label>
+                    <li>비밀번호 확인
+                        <input type="password">
+                    </li>
+                </label>
+            </ul>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>이벤트와 새로운 소식</legend>
+            <label><input type="radio" name="tmp">메일 수신</label>
+            <label><input type="radio" name="tmp">메일 수신 안 함</label>
+        </fieldset>
+        <input type="submit" value="가입하기">
+        <input type="reset" value="취소">
+    </form>
+</body>
+</html>

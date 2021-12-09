@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :enabled{color: black;}
+        :disabled{color: red;}
+        input:checked + span{color: green;}
+        input::placeholder{color: blue; font-size: 15px;}
+    </style>
+</head>
+<body>
+    <h1>선택자5</h1>
+    <form>
+        <fieldset>
+            <legend>사용자정보</legend>
+            <label>아이디<input type="text" value="ssyeon" disabled></label>
+            <br>
+            <label>성명<input type="text" placeholder="성명 입력해라"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>수강신청</legend>
+            <p>신청과목을 선택하세요</p>
+            <label><input type="radio" name="" id="sub">국어</label>
+            <label><input type="radio" name="" id="sub">영어</label>
+            <label><input type="radio" name="" id="sub">수학</label>
+        </fieldset>
+    </form>
+</body>
+</html>

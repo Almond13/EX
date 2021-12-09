@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈2</title>
+
+    <style>
+         *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .clearfix::after{
+            content:'';
+            display: block;
+            clear: both;
+        }
+        .wrap{
+            width: 1000px;
+            margin:0 auto;
+        }
+        .main>*{float: left;padding: 20px;height: 500px;}
+        .main .aside{width: 25%;background: #999;}
+        .main .section{width: 50%;background: #aaa;}
+        .header{
+            padding: 20px;
+            background: #666;
+            font-weight: 700;
+            font-size: 32px;
+            color: #fff;
+        }
+        .footer{padding: 20px;background: #888;}
+        /* .aside{
+            float: left;
+            width: 200px;
+            background: #999;    
+        }
+        .section{
+            width: 1000px;
+            background: #888; 
+        }
+        .aside2{
+            float: right;
+            width: 300px;
+            background: #aaa; 
+        }*/
+        
+    </style>
+</head>
+<body>
+    <section class="wrap">
+        <header class="header">
+            <h1>사이트제목</h1>
+        </header>
+        <main class="main clearfix">
+            <asider class="aside">
+                사이드바1
+            </asider>
+            <section class="section">
+                본문
+            </section>
+            <aseider class="aside">
+                사이드바2
+            </aseider>
+        </main>
+        <footer class="footer">
+            주소
+        </footer>
+    </section>
+</body>
+</html>
